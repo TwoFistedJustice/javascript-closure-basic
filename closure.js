@@ -10,7 +10,9 @@
 * Visit the page at w3 schools above and then fiddle with the code here.
 *
 * A closure is when an inner function has persistent access to the variables
-* in the outer function. Meaning, once the function is executed, it stays in memory.
+* in the outer function. Meaning, once the function is executed, it stays in memory,
+* standing ready to execute the inner function on demand.
+*
 * In these examples the closure functions are self-invoking. Note that all the function
 * calls at the bottom of the file are commented out. Yet there are logs in the console
 * from both closure functions. Stop and ponder on that. It is really important and will
