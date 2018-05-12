@@ -2,7 +2,7 @@
 // https://www.w3schools.com/js/js_function_closures.asp
 /*
 * This is meant to be a very simple example of basic closure in javascript
-* There are three function. They are all basically the same function.
+* There are three functions. They are all basically the same function.
 * The only difference between them is parentheses syntax
 *
 * The function has two console.logs, a count variable, and an inner function.
@@ -33,7 +33,7 @@ var noClosure = function () {
     console.log('noClosure - inner function', counter);
     counter++;
   }
-}; // <-- note the absence of parentheses - add them and this will become a closure
+}; // <-- note the absence of parentheses - add them and this will acquire closure
 
 
 // the only real syntactical difference is the addition of parentheses at the end
